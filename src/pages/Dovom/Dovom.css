@@ -1,0 +1,38 @@
+.banner{
+    background-image: url(../../asserts/banner.png);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    margin-top: -5rem;
+}
+
+.Proglej{
+    background: #EC1B24;
+}
+
+.projektu{
+    background-image: url(../../asserts/sbg.png);
+}
+ul li::before {
+  content: "\2022";
+  color: red;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+
+@media (min-width:992px)
+{
+    
+    .text-section{
+        background-image: url(../../asserts/v-line.png);
+        background-position-x: 7rem;
+        background-repeat: no-repeat;
+    }
+    .main-section{
+        background-image: url(../../asserts/v-line.png);
+        background-position-x: 14rem;
+        background-repeat: no-repeat;
+    }
+}
